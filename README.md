@@ -14,3 +14,8 @@ a basic chat server that will allow users to join a room with a username and mes
 - you will need to run both auth-frontend & server for this application to work correctly. 
 - in index.js of frontend project wrap App with RecoilRoot
 - remove React.StrictMode to prevent React from rendering twice 
+
+# Future Enhancements 
+- add a display broadcast message to chatroom when a user is typing
+- create a more efficient way to update the user list 
+- add jwt token authentication for connecting to a socket
