@@ -1,0 +1,21 @@
+.App {
+  color: white;
+}
+
+.primary-btn {
+  margin-top: 2vh;
+  background-color: transparent;
+  border: 2px solid aliceblue;
+  height: auto;
+  border-radius: 9px;
+  cursor: pointer;
+  color: white;
+  padding: 2vh;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: .2s ease-in-out;
+}
+
+@media only screen and (min-width: 1024px) {}

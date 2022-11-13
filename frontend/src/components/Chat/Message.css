@@ -1,0 +1,28 @@
+.message-box {
+    background-color: #1d222b;
+    max-width: 70vw;
+    height: auto;
+    word-wrap: break-word;
+    padding: 1vh;
+    margin-bottom: 2vh;
+}
+
+.message-box-header {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+.message-box-header p {
+    margin-right: 2vw;
+    font-size: 1.5vh;
+    color: rgb(147, 152, 164)
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .message-box {
+        max-width: 30vw;
+    }
+
+}

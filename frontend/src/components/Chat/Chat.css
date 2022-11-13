@@ -1,0 +1,93 @@
+.users-pane {
+    height: 20vh;
+    overflow: auto;
+    text-align: center;
+    background-color: #1d222b;
+}
+
+.chatroom-pane {
+    background-color: #282c34;
+}
+
+.chatroom-message-footer {
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #1d222b;
+    text-align: center;
+}
+
+.chatroom-input {
+    border: 0;
+    border-radius: 9px;
+    padding: 1vh;
+    height: auto;
+    width: 100vw;
+}
+
+.send-btn {
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    height: auto;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white;
+    padding: 2vh;
+}
+
+.chatroom-header {
+    text-align: center;
+    border-top: 1px solid #3b3e43;
+    border-bottom: 1px solid #3b3e43;
+    background-color: #1d222b;
+}
+
+.leave-btn {
+    margin-bottom: 2vh;
+    border-radius: 9px;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    padding: 2vw;
+    cursor: pointer;
+}
+
+.messages-container {
+    padding: 2vw;
+    overflow: auto;
+    height: 65vh;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .chatroom {
+        display: flex;
+    }
+
+    .users-pane {
+        height: 100vh;
+        width: 20vw;
+        border-right: 1px solid #3b3e43;
+    }
+
+    .chatroom-pane {
+        width: 80vw;
+    }
+
+    .chatroom-message-footer {
+        border-top: 1px solid #3b3e43;
+    }
+
+    .chatroom-header {
+        text-align: left;
+        border-top: 1px solid transparent;
+    }
+
+    .chatroom-header h1,
+    .leave-btn {
+        margin-left: 2vw;
+    }
+
+}
