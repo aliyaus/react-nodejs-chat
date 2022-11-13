@@ -1,24 +1,33 @@
 .lobby {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.lobby label {
+  text-align: center;
+}
+
+.lobby p {
+  font-size: 1vh;
+  color: rgb(167, 175, 183);
+}
+
+.lobby input {
+  border: 0;
+  border-radius: 9px;
+  padding: 1vh;
+  height: auto;
+  width: 90vw;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
   .lobby input {
-    border: 0;
-    border-radius: 9px;
-    padding: 1vh;
     height: auto;
-    width: 90vw;
+    width: 20vw;
   }
-
-
-  @media only screen and (min-width: 1024px) {
-
-    .lobby input {
-      height: auto;
-      width: 20vw;
-    }
-  }
+}

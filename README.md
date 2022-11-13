@@ -16,6 +16,8 @@ a basic chat server that will allow users to join a room with a username and mes
 - remove React.StrictMode to prevent React from rendering twice 
 
 # Future Enhancements 
+- implement a way to encrypt/decrypt messages for secure chat
 - add a display broadcast message to chatroom when a user is typing
 - create a more efficient way to update the user list 
 - add jwt token authentication for connecting to a socket
+- add a toast-notification component to display any errors or polling/retry messages

@@ -5,6 +5,7 @@
     word-wrap: break-word;
     padding: 1vh;
     margin-bottom: 2vh;
+    border-radius: 3px;
 }
 
 .message-box-header {
