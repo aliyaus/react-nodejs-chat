@@ -21,11 +21,3 @@ a basic chat server that will allow users to join a room with a username and mes
 7) create `userHelper.js` in `helpers`
 8) run `npm run dev` to serve backend
 
-
-
-
-
-Express: a lightweight and flexible Node.js framework that provides robust set of features for building web applications.
-Socket.IO: enables real-time bidirectional event-based communication. Socket abstract WebSocket connections. It uses WebSockets for transportation and automatically falls back to long polling if Websockets aren’t supported by the client.‍
-Moment: helps you manipulate and format dates in JavaScript.‍
-Nodemon: a tool that helps develop Node.js applications by automatically restarting the node application when file changes in the directory are detected.
